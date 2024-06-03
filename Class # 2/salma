@@ -1,0 +1,12 @@
+<!Doctype html>
+<html>
+    <head> <title> My book </title></head>
+    <body><h1><center><b>My Web Book</b></center></h1>
+    <h2><i><b> HTML LEARNING</b></i></h2>
+<p>HtML is a hyper maekup language which help to create structure of a web site like 
+    <a href ="https:www.google.com"> google.com </a>
+    and help to make and import images from internet like 
+    <img src="C:\Users\aisha\OneDrive\Desktop\images html\pexels-pixabay-60597.jpg"
+    width="500" height="600">
+</p></body>
+</html>

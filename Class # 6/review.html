@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Page</title>
+</head>
+<body>
+    <h2><center><label style="background-color: rgb(158, 236, 158);">Step 1: Account</label>
+    <label style="background-color: rgb(158, 236, 159);">Step 2: Personal Details</label>
+    <label style="background-color: rgb(156, 156, 230);">Step 3: Your Review</label></center></h2>
+    <form>
+        <fieldset>
+            <legend><h1>Your Review:
+            </h1></legend>
+            <p>
+            <label for="hear-about">
+            How did you hear about us?
+            </label>
+            <select name="referrer" id="hear-about">
+            <option value="google">Google</option>
+            <option value="friend">Friend</option>
+            <option value="advert">Advert</option>
+            <option value="other">Other</option>
+            </select>
+            </p>
+            <p>
+                Would you visit again?
+                <br />
+                <label>
+                <input type="radio" name="rating" value="yes" />
+                Yes
+                </label>
+                <label>
+                <input type="radio" name="rating" value="no" />
+                No
+                </label>
+                <label>
+                <input type="radio" name="rating" value="maybe" />
+                Maybe
+                </label>
+                </p>
+                <p>
+                <label for="comments">
+                Comments:
+                </label>
+                <br />
+                <textarea rows="4" cols="40" id="comments">
+                </textarea>
+                </p>
+                <p>
+                <label>
+                Attach Documents:
+                <input type="file" name="documents"/>
+                </label>
+                </p>
+                <label>
+                <input type="checkbox" name="subscribe" checked="checked" />
+                Sign me up for email updates
+                </label>
+                <br />
+            </p>
+            <p>
+            <a href="personal.html"><img src=images/back.png " style="width:100px;height:30"></a>
+            <a href="submit.html"><img src="images/submit.png" style="width:100px;height:30"></a>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>
